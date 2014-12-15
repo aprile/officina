@@ -1,0 +1,83 @@
+/* full page */
+html, body {
+	height: 100%;
+	width: 100%;
+	min-width: 414px;
+
+	color: #0A5C62;
+	background-color: #CADDCB;
+}
+
+/* page details */
+.description {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	max-width: 500px;
+	font-family: "garamond-premier-pro-display";
+	font-size: 20px;
+}
+
+/* centered content */
+.content {
+	/* centering crap dont touch */
+	position: absolute;
+	transform: translateY(-50%) translateX(-50%);
+	top: 50%;
+	left: 50%;
+
+	/* put shit here */
+	max-width: 100%;
+}
+
+/* footer stuff */
+.footer {
+	display: table;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #EFEFDC;
+	font-family: "garamond-premier-pro-display";
+}
+
+.footer > .footer-item {
+	display: table-cell;
+	padding: 10px;
+	border-top: 1px solid #CADDCB;
+	border-right: 1px solid #CADDCB;
+}
+
+/* desktop */
+@media (min-width: 700px) {
+	.footer > .footer-item:last-child {
+		border-right: none;
+	}
+
+	.footer > .footer-item:first-child {
+		border-left: none;
+	}
+}
+
+/* mobile */
+@media (max-width: 700px) {
+	.content {
+		height: auto;
+		width: 80%;
+	}
+	.footer > .footer-item {
+		display: inline-block;
+	}
+	.addr {
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.phone {
+		box-sizing: border-box;
+		width: 50%;
+	}
+	.email {
+		box-sizing: border-box;
+		width: 50%;
+	}
+}
