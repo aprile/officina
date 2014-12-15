@@ -6,6 +6,17 @@ html, body {
 
 	color: #0A5C62;
 	background-color: #CADDCB;
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
+	-moz-font-feature-settings: "kern=1";
+	-webkit-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern";
+	font-feature-settings: "kern";
+	font-kerning: normal;
 }
 
 /* page details */
@@ -38,7 +49,6 @@ html, body {
 	left: 0;
 	width: 100%;
 	background-color: #EFEFDC;
-	font-family: "garamond-premier-pro-display";
 }
 
 .footer > .footer-item {
@@ -46,6 +56,12 @@ html, body {
 	padding: 10px;
 	border-top: 1px solid #CADDCB;
 	border-right: 1px solid #CADDCB;
+}
+
+.footer > .footer-item > a,
+.footer > .footer-item > a:visited  {
+	color: inherit;
+	text-decoration: none;
 }
 
 /* desktop */
