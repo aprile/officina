@@ -26,7 +26,7 @@ html, body {
 	left: 25px;
 	max-width: 500px;
 	font-family: "garamond-premier-pro-display";
-	font-size: 20px;
+	font-size: 26px;
 }
 
 /* centered content */
@@ -39,6 +39,17 @@ html, body {
 
 	/* put shit here */
 	max-width: 100%;
+}
+
+.content > .storefront {
+
+}
+
+.content > .subtext {
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 /* footer stuff */
@@ -56,6 +67,7 @@ html, body {
 	padding: 10px;
 	border-top: 1px solid #CADDCB;
 	border-right: 1px solid #CADDCB;
+	font-size: 18px;
 }
 
 .footer > .footer-item > a,
