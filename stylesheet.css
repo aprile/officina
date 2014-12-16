@@ -17,6 +17,19 @@ html, body {
 	-moz-font-feature-settings: "kern";
 	font-feature-settings: "kern";
 	font-kerning: normal;
+
+}
+
+/* link styling */
+
+a,
+a:visited  {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #efefdc;
 }
 
 /* page details */
@@ -71,10 +84,9 @@ html, body {
 	text-align: center;
 }
 
-.footer > .footer-item > a,
-.footer > .footer-item > a:visited  {
-	color: inherit;
-	text-decoration: none;
+
+.footer > .footer-item > a:hover  {
+	color: #CADDCB;
 }
 
 /* desktop */
