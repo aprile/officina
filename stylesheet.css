@@ -49,7 +49,7 @@ html, body {
 	padding: 20px;
 	text-align: center;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 /* footer stuff */
@@ -68,6 +68,7 @@ html, body {
 	border-top: 1px solid #CADDCB;
 	border-right: 1px solid #CADDCB;
 	font-size: 18px;
+	text-align: center;
 }
 
 .footer > .footer-item > a,
@@ -78,6 +79,11 @@ html, body {
 
 /* desktop */
 @media (min-width: 700px) {
+	.content {
+		height: auto;
+		width: 80%;
+		max-width: 600px;
+	}
 	.footer > .footer-item:last-child {
 		border-right: none;
 	}
@@ -93,8 +99,10 @@ html, body {
 		height: auto;
 		width: 80%;
 	}
+
 	.footer > .footer-item {
 		display: inline-block;
+		text-align: center;
 	}
 	.addr {
 		box-sizing: border-box;
