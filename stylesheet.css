@@ -86,7 +86,8 @@ a:hover {
 
 
 .footer > .footer-item > a:hover  {
-	color: #CADDCB;
+	color: inherit;
+	text-decoration: underline;
 }
 
 /* desktop */
