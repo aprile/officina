@@ -47,6 +47,8 @@ a:hover {
 	/* centering crap dont touch */
 	position: absolute;
 	transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);
 	top: 50%;
 	left: 50%;
 
