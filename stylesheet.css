@@ -58,10 +58,6 @@ a:hover {
 	max-width: 100%;
 }
 
-.content > .storefront {
-
-}
-
 .content > .subtext {
 	padding: 20px;
 	text-align: center;
@@ -94,6 +90,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+.footer-header {
+	font-style: italic;
+}
+
 /* desktop */
 @media (min-width: 700px) {
 	.content {
@@ -121,16 +121,15 @@ a:hover {
 		display: inline-block;
 		text-align: center;
 	}
-	.addr {
+
+	.addr,
+	.phone,
+	.email {
 		box-sizing: border-box;
 		width: 100%;
 	}
-	.phone {
-		box-sizing: border-box;
-		width: 50%;
-	}
-	.email {
-		box-sizing: border-box;
-		width: 50%;
+
+	.footer-header {
+	display: none;	
 	}
 }
