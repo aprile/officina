@@ -92,6 +92,7 @@ a:hover {
 
 .footer-header {
 	font-style: italic;
+	display: inline;
 }
 
 /* desktop */
@@ -122,14 +123,18 @@ a:hover {
 		text-align: center;
 	}
 
-	.addr,
+	.addr {
+		box-sizing: border-box;
+		width: 100%;		
+	}
+	
 	.phone,
 	.email {
 		box-sizing: border-box;
-		width: 100%;
+		width: 50%;
 	}
 
 	.footer-header {
-	display: none;	
+	display: none;
 	}
 }
