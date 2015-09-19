@@ -36,13 +36,8 @@ li {
   padding: 0px 10px;
 }
 
-section {
-  margin-bottom: 26px;
-}
-
 .section-caption {
-  height: 20px;
-  color: #0a5c62;
+  height: 50px;
 }
 
 .section-caption a {
@@ -217,6 +212,9 @@ section.intro {
   animation-delay: 0;
 }
 
+.petal-and-leaf .image-gallery {
+  margin-top: 20px;
+}
 
 /* footer */
 
