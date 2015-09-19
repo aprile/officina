@@ -3,6 +3,18 @@ body {
   background-color: #efefdd;
   text-align: center;
   color: #0a5c62;
+  font-family: "garamond-premier-pro-display";
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -moz-font-feature-settings: "kern=1";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  font-feature-settings: "kern";
+  font-kerning: normal;  
 }
 
 img {
@@ -39,7 +51,7 @@ section {
 span.project-title {
   font-weight: bold;
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: "brandon-grotesque";
 }
 
 span.caption {
@@ -58,7 +70,8 @@ section.intro {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -87,7 +100,7 @@ section.intro {
 
 .button-link {
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: "brandon-grotesque";
   font-weight: bold;
   color: #0a5c62;
   font-style: normal;
@@ -98,7 +111,7 @@ section.intro {
 .square-button {
   border: 3px solid #0a5c62;
   padding: 10px;
-  font-family: sans-serif;
+  font-family: "brandon-grotesque";
   text-transform: uppercase;
   font-style: normal;
   font-size: 12px;
@@ -195,3 +208,4 @@ section.intro {
 footer {
   margin-top: 40px;
 }
+
