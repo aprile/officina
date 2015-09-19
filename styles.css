@@ -23,7 +23,6 @@ img {
 
 a {
   font-style: italic;
-  border-bottom: 1px solid;
   text-decoration: none;
   color: inherit;
 }
@@ -49,13 +48,15 @@ section {
 }
 
 span.project-title {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "brandon-grotesque";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "brandon-grotesque";
+    font-size: 12px;
+    letter-spacing: .1em;
 }
 
 span.caption {
-  font-family: serif;
+  font-family: "garamond-premier-pro-display";
 }
 
 section.intro {
@@ -104,7 +105,6 @@ section.intro {
   font-weight: bold;
   color: #0a5c62;
   font-style: normal;
-  border-bottom: 0px;
   font-size: 12px;
   letter-spacing: .1em;
 }
@@ -116,6 +116,7 @@ section.intro {
   letter-spacing: .1em;
   font-weight: bold;
   font-family: "brandon-grotesque";
+  font-style: normal;
 }
 
 .square-button {
@@ -128,8 +129,8 @@ section.intro {
   font-weight: bold;
 }
 
-#anchor img {
-  padding-top: 20px;
+.nav-arrow {
+  margin-top: 20px;
 }
 
 /* image gallery */
