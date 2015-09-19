@@ -3,6 +3,7 @@ body {
   background-color: #efefdd;
   text-align: center;
   color: #0a5c62;
+  font-size: 18px;
   font-family: "garamond-premier-pro-display";
 
   text-rendering: optimizeLegibility;
@@ -40,10 +41,16 @@ section {
 }
 
 .section-caption {
-  height: auto;
-  padding-top: 22px;
-  font-size: 18px;
+  height: 20px;
   color: #0a5c62;
+}
+
+.section-caption a {
+  font-style: italic;
+}
+
+.section-caption span {
+  padding: 0px 6px;
 }
 
 span.project-title {
@@ -54,10 +61,13 @@ span.project-title {
     letter-spacing: .1em;
 }
 
-span.caption {
-    font-family: "garamond-premier-pro-display";
-    padding: 0px 6px;
-    font-style: italic;
+.caption {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);  
 }
 
 section.intro {
