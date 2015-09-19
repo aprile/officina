@@ -22,7 +22,6 @@ img {
 }
 
 a {
-  font-style: italic;
   text-decoration: none;
   color: inherit;
 }
@@ -58,6 +57,7 @@ span.project-title {
 span.caption {
     font-family: "garamond-premier-pro-display";
     padding: 0px 6px;
+    font-style: italic;
 }
 
 section.intro {
@@ -96,8 +96,9 @@ section.intro {
   font-size: 4vw;
 }
 
-.intro-quote a {
+.intro-italic {
   border-bottom: 1px solid #efefdd;
+  font-style: italic;
 }
 
 .button-link {
@@ -105,7 +106,6 @@ section.intro {
   font-family: "brandon-grotesque";
   font-weight: bold;
   color: #0a5c62;
-  font-style: normal;
   font-size: 12px;
   letter-spacing: .1em;
 }
@@ -117,7 +117,6 @@ section.intro {
   letter-spacing: .1em;
   font-weight: bold;
   font-family: "brandon-grotesque";
-  font-style: normal;
 }
 
 .nav-arrow {
