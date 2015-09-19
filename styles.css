@@ -106,6 +106,16 @@ section.intro {
   font-style: normal;
   border-bottom: 0px;
   font-size: 12px;
+  letter-spacing: .1em;
+}
+
+.nav-button {
+  text-transform: uppercase;
+  color: #0a5c62;
+  font-size: 14px;
+  letter-spacing: .1em;
+  font-weight: bold;
+  font-family: "brandon-grotesque";
 }
 
 .square-button {
@@ -116,6 +126,10 @@ section.intro {
   font-style: normal;
   font-size: 12px;
   font-weight: bold;
+}
+
+#anchor img {
+  padding-top: 20px;
 }
 
 /* image gallery */
