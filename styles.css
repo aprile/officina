@@ -70,6 +70,7 @@ section.intro {
   height: 60vw;
   background-color: #cbddcd;
   padding: 40px;
+  margin-bottom: 30px;  
   box-sizing: border-box;
 }
 
@@ -97,7 +98,7 @@ section.intro {
   line-height: 5vw;
   max-width: 700px;
   margin: 0 auto;
-  padding: 5% 10%;
+  padding: 5% 10% 10% 10%;
   font-size: 4vw;
 }
 
@@ -122,10 +123,6 @@ section.intro {
   letter-spacing: .1em;
   font-weight: bold;
   font-family: "brandon-grotesque";
-  
-  position: relative;
-  bottom: 10%;
-  left: 0%;  
 }
 
 .nav-arrow {
@@ -214,10 +211,6 @@ section.intro {
   -moz-animation-delay: 0;
   -o-animation-delay: 0;
   animation-delay: 0;
-}
-
-.petal-and-leaf .image-gallery {
-  margin-top: 20px;
 }
 
 /* footer */
