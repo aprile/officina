@@ -56,7 +56,9 @@ span.project-title {
 }
 
 span.caption {
-  font-family: "garamond-premier-pro-display";
+    font-family: "garamond-premier-pro-display";
+    font-size: 18px;
+    padding: 0px 6px;
 }
 
 section.intro {
