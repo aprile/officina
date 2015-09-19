@@ -43,7 +43,7 @@ section {
 .section-caption {
   height: auto;
   padding-top: 22px;
-  font-size: 14px;
+  font-size: 18px;
   color: #0a5c62;
 }
 
@@ -57,7 +57,6 @@ span.project-title {
 
 span.caption {
     font-family: "garamond-premier-pro-display";
-    font-size: 18px;
     padding: 0px 6px;
 }
 
@@ -119,16 +118,6 @@ section.intro {
   font-weight: bold;
   font-family: "brandon-grotesque";
   font-style: normal;
-}
-
-.square-button {
-  border: 3px solid #0a5c62;
-  padding: 10px;
-  font-family: "brandon-grotesque";
-  text-transform: uppercase;
-  font-style: normal;
-  font-size: 12px;
-  font-weight: bold;
 }
 
 .nav-arrow {
