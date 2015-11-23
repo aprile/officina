@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title Officina Creative Inc | Graphic Design Studio
+    script(src='https://use.typekit.net/uwf8brl.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    style(type='text/css')
+      .wf-loading
+        visibility hidden
+    link(href='./css/index.css', rel='stylesheet')
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0")      
+  
+  body
+    .content.fadeIn
+      section.intro
+        a(href="/index.html")
+          img.logo(src="./img/officinalogo_light.svg" width="175px")
+
+        nav
+          ul.navlist
+            li
+              a(href="/index.html") Portfolio
+            li 
+              a(href="/about.html") About
+            li 
+              a(href="/contact.html") Contact
+      section.paper
+        h4 Lemon Aide
+        p.category branding, packaging
+
+        //- main image
+        
+        img.main(src="/img/OFFICINA_lemonaide_2.jpg")
+
+        //- project info
+
+        .info
+          .desc
+            h4 About the Project &mdash;
+            p description 
+          .client
+            h4 Client &mdash;
+            a(href="http://maisonapothecare.ca/collections/lemon-aide") Maison Apothecare
+          .featured
+            h4 Credits &mdash;
+            p Art Direction by 
+              a(href="") Aprile Elcich, 
+              | Design by 
+              a(href="http://www.petrac.ca") Petra Cuschieri
+            
+            
+
+        img.main(src="/img/OFFICINA_lemonaide_1.jpg")
+
+  include ./footer.jade

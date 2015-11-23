@@ -1,0 +1,75 @@
+doctype html
+html
+  head
+    title Officina Creative Inc | Graphic Design Studio
+    script(src='https://use.typekit.net/uwf8brl.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    style(type='text/css')
+      .wf-loading
+        visibility hidden
+    link(href='./css/index.css', rel='stylesheet')
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0")      
+  
+  body
+    .content.fadeIn
+      section.intro
+        a(href="/index.html")
+          img.logo(src="./img/officinalogo_light.svg" width="175px")
+
+        nav
+          ul.navlist
+            li
+              a(href="/index.html") Portfolio
+            li 
+              a(href="/about.html") About
+            li 
+              a(href="/contact.html") Contact
+      section.paper
+        h4 Vintage Type
+        p.category typography, web design
+
+        //- main image
+        
+        a(href="http://officinacreative.ca/vintagetype")
+          img.main(src="/img/vintagetype2.png")
+
+        //- project info
+
+        .info
+          .desc
+            h4 About the Project &mdash;
+            p This is a personal project, experimenting with web typography based on vintage type samples — old advertisements, packaging, hotel matchbooks, postcards, etc — and recreating them for the web.
+
+            p In my opinion, typography and design have gotten boring as we adopt the “less is more” philosophy. I’ve always been a fan of “more is more” and there is something captivating about the way we used to arrange our type, sometimes bordering on incoherent and disorderly — but undeniably interesting and beautiful in its own right. This quote by 
+              a(href="http://heckhouse.com/") Bethany Heck 
+              | in an essay on 
+              a(href="http://heckhouse.com/new-traditionalism/") New Traditionalism 
+              | sums it up well:
+
+            p.pull "Vintage designs have reminded designers to take risks, to mix more typefaces
+              br 
+              | and break more rules.”
+  
+            p Well, who isn’t interested in risk-taking and rule-breaking, especially in the usually non-life-threatening realm of design? For the best coherency and to show how much you can do with so little (and to prevent the world’s longest page load) I chose a few modern typefaces that I felt could illustrate the whole range of samples well enough.
+
+            p Hover or click on the paperclip to view the original imagery, for sake of comparison and including the source.
+
+            p Webfonts Used: 
+              a(href="https://www.google.com/fonts/specimen/Oswald") Oswald, 
+              a(href="https://www.google.com/fonts/specimen/Krona+One") Krona One, 
+              a(href="https://www.google.com/fonts/specimen/Cardo") Cardo, 
+              a(href="https://www.google.com/fonts/specimen/Raleway") Raleway, 
+              a(href="https://www.google.com/fonts/specimen/Herr+Von+Muellerhoff") Herr Von Muellerhoff, 
+              | and 
+              a(href="https://www.google.com/fonts/specimen/Sacramento") Sacramento.
+
+          .featured
+            h4 Visit Website
+            a(href="http://officinacreative.ca/vintagetype") Vintage Type
+
+        img.main(src="/img/vintagetype1.png")
+        a(href="http://officinacreative.ca/vintagetype")
+          img.main(src="/img/vintagetype-screen.png")
+  include ./footer.jade

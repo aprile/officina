@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    title Officina Creative Inc | Graphic Design Studio
+    script(src='https://use.typekit.net/uwf8brl.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    style(type='text/css')
+      .wf-loading
+        visibility hidden
+    link(href='./css/index.css', rel='stylesheet')
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0")      
+  
+  body
+    .content.fadeIn
+      section.intro
+        a(href="/index.html")
+          img.logo(src="./img/officinalogo_light.svg" width="175px")
+
+        nav
+          ul.navlist
+            li
+              a(href="/index.html") Portfolio
+            li 
+              a(href="/about.html") About
+            li 
+              a.current(href="/contact.html") Contact
+      section.paper
+
+        .info
+          form#gform.pure-form.pure-form-stacked(method='POST', action='https://script.google.com/macros/s/AKfycbxnoUHvTPHMXbAixH8TrVUBflVYmPBcVvTRWU2qO7fUNw8N1TuR/exec')
+
+
+            fieldset.name
+              label(for='name') 
+                h4 Name: 
+              input#name(name='name', placeholder='Name')
+            fieldset.email
+              label(for='email')
+                h4 Email Address:
+              input#email(name='email', type='email', value='', required='', placeholder='your.name@email.com')
+              span#email-invalid(style='visibility:hidden')
+                | Must be a valid email address
+            fieldset.message
+              label(for='message') 
+                h4 Message: 
+              textarea#message(name='message', rows='10')                
+            button.button-xlarge
+              i.fa.fa-paper-plane
+              h4 Send
+          
+          #thankyou_message(style='display:none;')
+            p Thanks for contacting us!
+            | We will get back to you shortly!
+
+  include ./footer.jade

@@ -1,0 +1,71 @@
+doctype html
+html
+  head
+    title Officina Creative Inc | Graphic Design Studio
+    script(src='https://use.typekit.net/uwf8brl.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    style(type='text/css')
+      .wf-loading
+        visibility hidden
+    link(href='./css/index.css', rel='stylesheet')
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0")      
+  
+  body
+    .content.fadeIn
+      section.intro
+        a(href="/index.html")
+          img.logo(src="./img/officinalogo_light.svg" width="175px")
+
+        nav
+          ul.navlist
+            li
+              a(href="/index.html") Portfolio
+            li 
+              a(href="/about.html") About
+            li 
+              a(href="/contact.html") Contact
+      section.paper
+        h4 Colors of SF
+        p.category illustration
+
+        //- main image
+        
+        img.main(src="/img/colors-sf.png")
+
+        //- project info
+
+        .info
+          .desc
+            h4 About the Project &mdash;
+            p Personal project illustrating color palettes of the Victorian row houses in San Francisco. 
+            p Design and illustration by Officina, code by 
+             a(href="http://contra.io") Contra.
+          .featured
+            h4 Visit Website
+            a(href="http://contra.io/colorsofsf") Colors of SF
+
+        img.main(src="/img/sfhouse.svg")
+
+      footer
+        .footerleft
+          img(src="/img/storefront-logo.svg" width="200px")
+        .footerright
+          a.link(href="/contact.html") work with us!
+          ul
+            li
+              span |&emsp;
+              a(href="mailto:hi@officinacreative.ca") Email
+              span &emsp;|&emsp;
+              a(href="http://twitter.com/officina_inc") Twitter
+              span &emsp;|&emsp;
+              a(href="http://www.facebook.com/officinacreative") Facebook
+              span &emsp;|&emsp;
+              a(href="http://instagram.com/officinacreative") Instagram
+              span &emsp;|&emsp;
+              a(href="http://dribbble.com/aprileelcich") Dribbble
+              span &emsp;|&emsp;
+          i &copy; Copyright Officina Creative Inc 2015      
+
+script(src="/js/fonts.js")

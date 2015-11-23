@@ -1,0 +1,61 @@
+doctype html
+html
+  head
+    title Officina Creative Inc | Graphic Design Studio
+    script(src='https://use.typekit.net/uwf8brl.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    style(type='text/css')
+      .wf-loading
+        visibility hidden
+    link(href='./css/index.css', rel='stylesheet')
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0")      
+  
+  body
+    .content.fadeIn
+      section.intro
+        a(href="/index.html")
+          img.logo(src="./img/officinalogo_light.svg" width="175px")
+
+        nav
+          ul.navlist
+            li
+              a(href="/index.html") Portfolio
+            li 
+              a(href="/about.html") About
+            li 
+              a(href="/contact.html") Contact
+      section.paper
+        h4 Petal &amp; Leaf
+        p.category branding, packaging, web design
+
+        //- main image
+        
+        img.main(src="/img/petal-leaf.png")
+
+        //- project info
+
+        .info
+          .desc
+            h4 About the Project &mdash;
+            p Petal &amp; Leaf Holistic Aromatics is a natural line of perfumes formulated by french perfumers, each natural scent beautifully and carefully crafted. Inspired by the line, we created an identity and packaging to reflect the organic nature and intricacies of the product. Each box was custom designed and letterpress printed by 
+              i
+                a(href="http://genghiskern.com") Genghis Kern 
+              | in Colorado for a perfect, polished finish. Designed in collaboration with 
+              i
+                a(href="http://www.petrac.ca/") Petra Cuschieri.
+            p Read more about 
+              i
+                a(href="https://medium.com/@officina_inc/petal-leaf-ca545817da6d#.q3snorr89") the design process.
+          .client
+            h4 Client &mdash;
+            a(href="http://www.petal-and-leaf.com/") Petal &amp; Leaf Holistic Aromatics
+          .featured
+            h4 Featured on &mdash;
+            a(href="http://www.thedieline.com/blog/2015/9/29/petal-leaf-holistic-aromatics") The Dieline,
+            a(href="http://lovelypackage.com/petal-leaf/") Lovely Package
+
+        img.main(src="/img/petalleaf-web.png")
+
+  include ./footer.jade

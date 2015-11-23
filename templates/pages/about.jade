@@ -1,0 +1,72 @@
+doctype html
+html
+  head
+    title Officina Creative Inc | Graphic Design Studio
+    script(src='https://use.typekit.net/uwf8brl.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    style(type='text/css')
+      .wf-loading
+        visibility hidden
+    link(href='./css/index.css', rel='stylesheet')
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0")      
+  
+  body
+    .content.fadeIn
+      section.intro
+        a(href="/index.html")
+          img.logo(src="./img/officinalogo_light.svg" width="175px")
+
+        nav
+          ul.navlist
+            li
+              a(href="/index.html") Portfolio
+            li 
+              a.current(href="/about.html") About
+            li 
+              a(href="/contact.html") Contact
+
+      section.paper
+        .info
+          p.pull.aboutheader An independent design studio intent on 
+            br
+            | bringing beauty to your brand.
+
+          h4 About Officina &mdash;
+          i | &emsp; n. workshop from Latin officina &emsp; |
+          
+          p Officina Creative Inc is a graphic design studio specializing in packaging design and branding for start-up and established companies &amp; brands. Our focus is in beauty and fashion, but we work with a wide range of clients. After freelancing for 3 years under her own name as a Graphic Designer and Art Director, Aprile Elcich decided to launch her business officially as Officina Creative, and to collaborate more with other designers, studios &amp; developers.
+
+          .select
+            h4 Select Clients &amp; Contracts &mdash;
+            a(href="http://maisonapothecare.ca/") Maison Apothecare, 
+            a(href="http://www.petal-and-leaf.com/") Petal &amp; Leaf, 
+            a(href="http://www.johnst.com/en/") John St Advertising, 
+            a(href="http://www.juniperpark.com/") Juniper Park, 
+            a(href="http://smittencreative.com/") Smitten Creative, 
+            a(href="https://www.nowsecure.com/") NowSecure, 
+            | &amp; 
+            a(href="http://exsite.ca/") Exsite
+
+          .featured 
+            h4 Services &mdash;
+            p Branding
+            p Packaging Design
+            p Web Design
+            p Illustration
+            p Art Direction
+
+          .featured 
+            h4 Press &amp; Features &mdash;  
+            p 2015&emsp;
+              a(href="") The Dieline - Petal &amp; Leaf
+            p 2015&emsp;
+              a(href="") Lovely Package - Petal &amp; Leaf
+
+          .select
+            h4 Work with Us &mdash;
+            p We're always looking for inspiring projects, drop us a line and let's collaborate on your next big idea!
+            a(href="") Contact Us    
+
+  include ./footer.jade

@@ -1,0 +1,66 @@
+doctype html
+html
+  head
+    title Officina Creative Inc | Graphic Design Studio
+    script(src='https://use.typekit.net/uwf8brl.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    style(type='text/css')
+      .wf-loading
+        visibility hidden
+    link(href='./css/index.css', rel='stylesheet')
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0")      
+  
+  body
+    .content.fadeIn
+      section.intro
+        a(href="/index.html")
+          img.logo(src="./img/officinalogo_light.svg" width="175px")
+
+        nav
+          ul.navlist
+            li
+              a(href="/index.html") Portfolio
+            li 
+              a(href="/about.html") About
+            li 
+              a(href="/contact.html") Contact
+      section.paper
+        h4 Petal &amp; Leaf
+        p.category illustration, print design
+
+        //- main image
+        
+        img.main(src="/img/OFFICINA_britjeff-1.jpg")
+
+        //- project info
+
+        .info
+          .desc
+            h4 About the Project &mdash;
+            p Description
+          .client
+            h4 Client &mdash;
+            p Brittany &amp; Jeff Callaghan
+          .featured
+            h4 Featured on &mdash;
+            a(href="http://www.marthastewartweddings.com/372206/toronto-canada-casa-loma-castle-romantic-sunday-morning-wedding-brittany-jeffrey") Martha Stewart Weddings
+          .client
+            h4 Credits
+            p Letterpress Printing by 
+              a(href="http://www.tripprintpress.ca/") Trip Print Press
+
+        img.main(src="/img/OFFICINA_britjeff-2.jpg")
+
+        .info
+          hr
+
+          p.pull Working with Aprile was like collaborating with a truly talented friend! We had a very specific idea of what we wanted and she was right on the mark when it came to bringing these ideas to life. We cannot say enough good things about Aprile's approach to the project, her professionalism and her creativity. We look forward to working with her in the future and highly recommend her. &mdash; Brittany Callaghan
+
+          hr
+        img.main(src="/img/OFFICINA_britjeff-3.jpg")
+        img.main(src="/img/OFFICINA_britjeff-4.jpg")
+        img.main(src="/img/OFFICINA_britjeff-5.jpg")
+  
+  include ./footer.jade

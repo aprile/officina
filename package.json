@@ -1,0 +1,19 @@
+{
+  "name": "vintagetype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "stylus": "^0.52.4",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "npm run watch:stylus & npm run watch:jade",
+    "watch:stylus": "stylus --watch ./styles/* -o ./css",
+    "watch:jade": "jade --watch ./templates/pages/* -o .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

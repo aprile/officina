@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    title Officina Creative Inc | Graphic Design Studio
+    script(src='https://use.typekit.net/uwf8brl.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    style(type='text/css')
+      .wf-loading
+        visibility hidden
+    link(href='./css/index.css', rel='stylesheet')
+    meta(charset="utf-8")
+    meta(name="viewport", content="initial-scale=1.0")      
+  
+  body
+    .content.fadeIn
+      section.intro
+        a(href="/index.html")
+          img.logo(src="./img/officinalogo_light.svg" width="175px")
+
+        nav
+          ul.navlist
+            li
+              a(href="/index.html") Portfolio
+            li 
+              a(href="/about.html") About
+            li 
+              a(href="/contact.html") Contact
+      section.paper
+        h4 Petal &amp; Leaf
+        p.category branding, packaging, web design, print
+
+        //- main image
+        
+        img.main(src="/img/OFFICINA_maisonapothecare-2b.png")
+
+        //- project info
+
+        .info
+          .desc
+            h4 About the Project &mdash;
+            p We have worked with Maison Apothecare on their branding and packaging for over 2 years, and have been pleased to watch them grow and grow alongside them. We feel our packaging has made a difference &mdash; founder Natacha Rey has had much success in the wholesale realm selling to department &amp; grocery stores, and this past summer opened the first Maison Apothecare brick-and-mortar shop in Niagara-on-the-Lake.
+
+            p Our ongoing work for them includes packaging design, signage, print materials, &amp; web design and maintenance, across Maison Apothecare and all it's sub brands &mdash; 
+              a(href="http://www.maisonapothecare.ca/collections/sleepy-owl-baby") Sleepy Owl Baby, 
+              a(href="http://www.maisonapothecare.ca/collections/gentlemans-apothecary") Gentleman's Apothecary, 
+              a(href="http://www.maisonapothecare.ca/") Maison Apothecare, 
+              a(href="http://www.maisonapothecare.ca/collections/marulagold") Marulagold, 
+              | and 
+              a(href="http://www.maisonapothecare.ca/collections/lemon-aide") Lemon Aide.
+
+          .client
+            h4 Client &mdash;
+            a(href="http://www.maisonapothecare.ca") Maison Apothecare
+
+        a(href="http://www.maisonapothecare.ca")
+          img.main(src="/img/maisonapothecare-screen.png")
+        img.main(src="/img/OFFICINA_maisonapothecare-3.jpg") 
+  include ./footer.jade
