@@ -209,6 +209,8 @@ body footer ul {
 @media (max-width: 768px) {
   body {
     padding: 10px;
+    width: 100%;
+    margin: 0px;
   }
   body p.pull.aboutheader {
     font-size: 38px;
@@ -232,6 +234,9 @@ body footer ul {
   }
   body section.paper {
     margin: 0px;
+    background: none;
+    padding: 0px;
+    margin: 0 auto;
   }
   body section.paper .title {
     display: none;
