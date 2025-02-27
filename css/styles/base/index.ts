@@ -1,0 +1,18 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+import { ColorTokens } from "./color";
+import { ShadowTokens } from "./shadow";
+import { TypographyTokens } from "./typography";
+import { GradientTokens } from "./gradient";
+
+const tokens = {
+  ...ColorTokens,
+  ...ShadowTokens,
+  ...TypographyTokens,
+  ...GradientTokens,
+};
+
+export default tokens;
